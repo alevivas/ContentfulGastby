@@ -10,7 +10,7 @@ const articlePreview = (props) => {
 
   console.log(article);
   var heroImage = article.heroImage;
-  let img = <div></div>;
+  let img = <img src="https://source.unsplash.com/random/400x200" alt="" />;
   if(heroImage != null){
     img =  <Img alt="" fluid={article.heroImage.fluid} />
   }
